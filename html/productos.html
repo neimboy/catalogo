@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoShop - Productos</title>
+</head>
+<body>
+    <header>
+        <h1>EcoShop</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="categorias.html">Categorías</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Catálogo de Productos</h2>
+        
+        <section>
+            <h3>Filtros</h3>
+            <input type="text" placeholder="Buscar producto...">
+            <select>
+                <option value="">Todas las categorías</option>
+                <option value="hogar">Hogar</option>
+                <option value="tecnologia">Tecnología</option>
+                <option value="deportes">Deportes</option>
+                <option value="jardineria">Jardinería</option>
+            </select>
+            <select>
+                <option value="">Ordenar por...</option>
+                <option value="precio-asc">Precio: Menor a Mayor</option>
+                <option value="precio-desc">Precio: Mayor a Menor</option>
+                <option value="nombre">Nombre</option>
+                <option value="stock">Disponibilidad</option>
+            </select>
+        </section>
+
+        <section>
+            <h3>Productos Destacados</h3>
+            <div>
+                <article>
+                    <h4>Botella Reutilizable</h4>
+                    <p>Precio: $12.99</p>
+                    <p>Stock: 10</p>
+                    <button>Comprar</button>
+                </article>
+                <article>
+                    <h4>Cargador Solar</h4>
+                    <p>Precio: $29.99</p>
+                    <p>Stock: 5</p>
+                    <button>Comprar</button>
+                </article>
+                <article>
+                    <h4>Maceta Biodegradable</h4>
+                    <p>Precio: $8.50</p>
+                    <p>Stock: 15</p>
+                    <button>Comprar</button>
+                </article>
+                <article>
+                    <h4>Audífonos Bluetooth</h4>
+                    <p>Precio: $45.00</p>
+                    <p>Stock: 0</p>
+                    <button disabled>Agotado</button>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>EcoShop - Catálogo Interactivo</p>
+        <p>Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
