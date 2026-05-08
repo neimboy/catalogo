@@ -3,29 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería Interactiva</title>
-    <link rel="stylesheet" href="style.css">
+    <title>EcoShop - Página Secundaria</title>
 </head>
 <body>
-    <h1 id="titulo">Galería Interactiva</h1>
-    
-    <div id="filtros">
-        <button class="boton-filtro" data-filtro="all">Todas</button>
-        <button class="boton-filtro" data-filtro="dibujo">Dibujos</button>
-        <button class="boton-filtro" data-filtro="paisaje">Paisajes</button>
-    </div>
+    <header>
+        <h1>EcoShop</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="index.html">Productos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div id="galeria" class="galeria">
-        <!-- Las imágenes se cargarán mediante JavaScript -->
-    </div>
+    <main>
+        <section>
+            <h2>Detalles del Inventario</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Categoría</th>
+                        <th>Stock</th>
+                        <th>Imagen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="6">Cargando inventario...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
 
-    <div id="controles">
-        <button id="btnAnterior">Anterior</button>
-        <button id="btnSiguiente">Siguiente</button>
-    </div>
-
-    <p class="info">Haz clic en una imagen para ampliarla y usa la rueda del ratón para el zoom</p>
-
-    <script src="script.js"></script>
+    <footer>
+        <p>EcoShop - Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
