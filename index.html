@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Interactiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo">Galería Interactiva</h1>
+    
+    <div id="filtros">
+        <button class="boton-filtro" data-filtro="all">Todas</button>
+        <button class="boton-filtro" data-filtro="dibujo">Dibujos</button>
+        <button class="boton-filtro" data-filtro="paisaje">Paisajes</button>
+    </div>
+
+    <div id="galeria" class="galeria">
+        <!-- Las imágenes se cargarán mediante JavaScript -->
+    </div>
+
+    <div id="controles">
+        <button id="btnAnterior">Anterior</button>
+        <button id="btnSiguiente">Siguiente</button>
+    </div>
+
+    <p class="info">Haz clic en una imagen para ampliarla y usa la rueda del ratón para el zoom</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
